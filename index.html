@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Todo App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
-  </head>
-  <body>
-    <div class="matrix-inf">
-      <img class="matrix-inf__img" src="./eisenhower-matrix.jpg">
-      <a class="matrix-inf__more" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+
+<head>
+  <title>Todo App</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+</head>
+
+<body>
+
+  <header class="matrix-inf">
+    <img class="matrix-inf__img" src="./eisenhower-matrix.jpg">
+    <a class="matrix-inf__more" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+  </header>
+  <main class="todo-list">
+    <p class="add-item add">
+      <label for="new-task" class="add__label">Add Item</label>
+    <div class="task-row-wrapper">
+      <input id="new-task" class="add__new-task task input-text" type="text">
+      <button class="btn">Add</button>
     </div>
-    <div class="todo-list">
-      <p class="add-item add"> 
-        <label for="new-task" class="add__label">Add Item</label>
-        <div class="task-row-wrapper">
-          <input id="new-task"class="add__new-task task input-text" type="text">
-          <button class="btn">Add</button>
-        </div>
-      </p>
+    </p>
+    <section>
       <h3 class="title">Todo</h3>
       <ul class="incomplete-tasks">
         <li class="task-item">
@@ -35,6 +39,8 @@
           <button class="btn delete"><img src="./remove.svg"></button>
         </li>
       </ul>
+    </section>
+    <section>
       <h3 class="title">Completed</h3>
       <ul id="completed-tasks" class="completed-tasks">
         <li class="task-item">
@@ -45,7 +51,9 @@
           <button class="btn delete"><img src="./remove.svg"></button>
         </li>
       </ul>
-    </div>
-    <script src="app.js"></script>
-  </body>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+
 </html>
