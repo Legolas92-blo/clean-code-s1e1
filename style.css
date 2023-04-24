@@ -6,15 +6,15 @@ body {
 }
 
 ul {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 input, button{
-  outline:none;
+  outline: none;
 }
 
 input:focus {
@@ -34,7 +34,7 @@ input:focus {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .matrix-inf { text-align: center;
 }
@@ -149,14 +149,14 @@ button, .btn {
 
 /* Edit Task */
 .task-item .input-text {
-  display:none
+  display: none
 }
 
 .editMode .input-text {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .editMode .task-item__label {
-  display:none;
+  display: none;
 }
