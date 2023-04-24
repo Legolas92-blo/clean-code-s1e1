@@ -10,10 +10,12 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
-input, button{
+input, 
+button{
   outline: none;
 }
 
@@ -58,7 +60,8 @@ input:focus {
 }
 
 
-button, .btn {
+button, 
+.btn {
   background: none;
   border: 0px;
   color: #888;
@@ -102,6 +105,7 @@ button, .btn {
   display: block;
   margin: 0 0 20px;
 }
+
 .add__new-task {
   width: 318px;
 }
@@ -123,20 +127,24 @@ button, .btn {
 .task-item > .input-checkbox {
   margin: 0 10px;
 }
+
 .task-item > .task-item__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-item >   .input-text {
   width: 226px;
 }
+
 .delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete img:hover {
   transform: rotateZ(0);
 }
