@@ -9,6 +9,7 @@ ul {
   margin:0;
   padding: 0px;
 }
+
 li, h3 {
   list-style:none;
 }
@@ -34,20 +35,24 @@ input:focus {
 }
 
 @media (max-width:768px) {
+
   .matrix-inf { text-align: center;
 }
+
 }
 .todo-list {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task,
 .item__task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .task-row-wrapper {
   display: flex;
 }
